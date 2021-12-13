@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=GFS+Neohellenic:wght@700&family=Quicksand&display=swap");
+body {
+  background-image: url("assets/sunset.jpg");
+}
+header {
+  background: #03091447;
+  display: flex;
+  justify-content: space-around;
+  margin: 1px;
+  padding: 1px;
+}
+#logo {
+  box-shadow: 2px 1px 3px;
+  color: #caa37cbd;
+  opacity: 0.9;
+  position: absolute;
+  left: 10px;
+  top: 1%;
+}
+#Welcome {
+  height: 500px;
+  background-image: url("assets/bateau-argo.jpg");
+  background-size: cover;
+}
+
+h1 {
+  font-family: GFS Neohellenic;
+  position: relative;
+  top: 30%;
+  font-size: 50px;
+  color: white;
+  text-shadow: 3px 3px #333;
+  text-align: center;
+}
+h2 {
+  font-family: GFS Neohellenic;
+  font-size: 30px;
+  text-shadow: 2px 1px #e7c37f71;
+}
+#About {
+  text-align: justify;
+  position: relative;
+  font-size: 1.3em;
+  margin-left: 0.9rem;
+  margin-right: 0.8em;
+  font-family: GFS Neohellenic;
+  color: #130904;
+}
+
+p {
+  font-size: 1.3rem;
+}
+.menu {
+  display: flex; /* Transformation en flexbox */
+  padding: 0px;
+  margin: 15px;
+  position: relative;
+  left: 8%; /* Suppression des marges internes */
+  background-color: rgba(
+    190,
+    190,
+    109,
+    0.233
+  ); /* Ajout de la couleur d'arrière-plan */
+}
+.menu li {
+  list-style-type: none; /* Suppression des puces */
+}
+
+.menu a {
+  display: block; /* Transformation en block */
+  min-width: 100px; /* Largeur minimale des liens */
+  font-family: GFS Neohellenic; /* choix de la police  */
+  font-size: 1em; /* Taille police */
+  margin: 0.1rem; /* Marges externes (1 valeurs = 4 directions) */
+  padding: 3px 0; /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
+  text-align: center; /* Centrage du texte */
+  background-color: rgba(63, 9, 2, 0.329); /* Couleur d'arrière-plan */
+  color: rgb(216, 216, 216); /* Couleur du texte */
+  text-shadow: 2px 1px #01071370; /* ombrage du texte */
+  box-shadow: 2px 1px 3px; /* o;brage des elements contenus dans le block*/
+  text-decoration: none; /* Suppression du soulignement */
+  border: 1px solid rgba(145, 89, 24, 0.349); /* Ajout d'une bordure */
+  border-radius: 3px; /* Arrondis des bordures */
+}
+.menu a:hover {
+  background-color: #03010000; /* Couleur d'arrière-plan */
+  color: #ffdd43; /* Couleur du texte */
+  border-color: #67655580; /* Couleur de la bordure */
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#royal-family .flex-container div {
+  flex: 1 1 0; /* indication du positionement des elements flex 3 elements */
+  text-align: center;
+  text-justify: justify;
+  font-size: 2rem;
+  font-family: GFS Neohellenic;
+  color: #e0d17d;
+  text-shadow: 2px 2px #000000b4;
+  padding: 10px;
+}
+td,
+th {
+  border: 2px solid black;
+  font-family: GFS Neohellenic;
+  font-size: 20px;
+  background-color: rgba(255, 239, 239, 0.274);
+}
+#Here {
+  margin: 4rem;
+  text-align: justify;
+  position: relative;
+  font-size: 1.3em;
+  margin-left: 0.9rem;
+  margin-right: 0.8em;
+  font-family: GFS Neohellenic;
+  color: #ddddd0e8;
+  text-shadow: 1px 1px #130904;
+}
+#Royal {
+  text-align: center;
+  font-size: 40px;
+}
+#Edited {
+  font-family: GFS Neohellenic;
+  background-color: rgba(51, 51, 51, 0.349);
+  text-align: right;
+  font-size: 15px;
+}
+footer {
+  margin-top: 80px;
+}
