@@ -2,62 +2,58 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=dev
-    <title>Web Development Tech Challenge Co
-    <link href="style.css" rel="stylesheet" 
+    <meta name="viewport" content="width=device-width" />
+    <title>Web Development Tech Challenge Contact Page</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <header>
-      <img src="assets/logo.png" height="60"
+      <img src="assets/logo.png" height="80" alt="logo ARGO" id="logo" />
       <ul class="menu">
-        <li><a href="index.html">About</a></
-        <li><a href="royal-family.html">Roya
-        <li><a href="royal-assets.html">Roya
-        <li><a href="contact.html">Contact U
+        <li><a href="index.html">About</a></li>
+        <li><a href="royal-family.html">Royal Family</a></li>
+        <li><a href="royal-assets.html">Royal Assets</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
       </ul>
     </header>
-    </head>
-    <body>
-      <section id="contact">
-        <form id="contactForm">
-          <label for="name">First name:</lab
-          <input type="text" id="name" name=
-          <label for="email">Email:</label><
-          <input
-            type="email"
-            id="email"
-            name="email"
-            value="sandal@Papyrus.com"
-          /><br />
-          <label for="message">Message:</lab
-          <textarea id="message" name="messa
-          <br /><br />
-          <input type="submit" value="Submit
-        </form>
-        </div>
-      </section>
-      <button id="sendPopup" class="sendPopu
-        <div id="overlay" class="overlay">
-          <div id="popup" class="popup">
-              <img src="assets/turtle.jpg" h
-              <h2>
-                  Your Papyrus request has b
-                  <span id="btnClose" class=
-                     </span>
-                </h2>
-                <p>
-                    We have just received yo
-                    write a Papyrus of 240 c
-                  will bring your message to
-                </p>
-          </div>
-        </div>  
-    </body>
-    <script src="script.js"></script>
+    <section id="contact">
+      <h1>Contact us via a messenger of modern times</h1>
+      <form action="mailto:lostsandal@colchis.gr" id="contactForm">
+        <label for="name">First name:</label><br />
+        <input type="text" id="name" name="name" value="Jason" /><br />
+        <label for="email">Email:</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          value="sandal@Papyrus.com"
+        /><br />
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message"></textarea>
+        <br /><br />
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+    <button id="sendPopup" class="sendPopup">Send Papyrus</button>
+    <div id="overlay" class="overlay">
+      <div id="popup" class="popup">
+        <img src="assets/turtle.jpg" height="60" alt="logo ARGO" id="logot" />
+        <h2>
+          Your Papyrus request has been receved
+          <span id="btnClose" class="btnClose">&times; </span>
+        </h2>
+        <p>
+          We have just received your request in our Athenian datacenter, a
+          scrypt has been mandated to write a Papyrus of 240 characters maximum.
+          A man in sandals will bring your message to Colchis whatever it costs!
+        </p>
+      </div>
+    </div>
   </body>
   <footer>
     <section id="Edited">
       Edited on 12/12/-844 by Pollux
     </section>
   </footer>
+  <script src="script.js"></script>
 </html>
